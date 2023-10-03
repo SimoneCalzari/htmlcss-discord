@@ -133,16 +133,21 @@ COMMON
   margin: 0 auto;
 }
 
+.button {
+  padding: 10px;
+  border-radius: 25px;
+}
 /*
 HEADER 
 */
 
-.header1 {
-  padding: 10px 0;
+header {
+  color: white;
 }
 
-.header2 {
-  padding: 30px 0;
+.header1 {
+  padding: 10px 0;
+  background-color: #255ee9;
 }
 
 .logo {
@@ -155,19 +160,88 @@ HEADER
   padding: 5px;
 }
 
+.links ul {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.links ul li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.links ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
 .login {
   width: 25%;
   padding: 5px;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.login a.button {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  font-size: 13px;
+}
+
+.header2 {
+  padding: 30px 0;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header2 .container {
   justify-content: center;
   align-items: center;
+  padding: 150px 190px 100px;
 }
 
 .box-header2 {
-  width: 700px;
+  text-align: center;
+
 }
+
+.box-header2 h1 { 
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.box-header2 p {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+
+.box-header2 a {
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.box-header2 .mac {
+  color: black;
+  background-color: white;
+}
+
+.box-header2 .browser {
+  background-color: black;
+  color: white;
+}
+
+.box-header2 .mac span {
+  display: inline-block;
+  font-size: 20px;
+}
+
 
 /*
 MAIN 
