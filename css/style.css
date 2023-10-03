@@ -331,7 +331,12 @@ section {
 
 .section4 h3 {
   font-size: 30px;
+  margin: 0 auto;
   margin-bottom: 30px;
+  background-image: url(../img/stars.svg);
+  background-position: top;
+  line-height: 50px;
+  width: 700px;
 }
 
 .section4 a {
