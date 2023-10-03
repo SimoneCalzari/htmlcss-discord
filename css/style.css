@@ -136,6 +136,7 @@ COMMON
 .button {
   padding: 10px;
   border-radius: 25px;
+  text-decoration: none;
 }
 /*
 HEADER 
@@ -187,7 +188,6 @@ header {
 }
 
 .login a.button {
-  text-decoration: none;
   background-color: white;
   color: black;
   font-size: 13px;
@@ -203,7 +203,7 @@ header {
 .header2 .container {
   justify-content: center;
   align-items: center;
-  padding: 150px 190px 100px;
+  padding: 130px 190px 100px;
 }
 
 .box-header2 {
@@ -242,7 +242,6 @@ header {
   font-size: 20px;
 }
 
-
 /*
 MAIN 
 */
@@ -255,17 +254,66 @@ section {
   width: 60%;
 }
 
+.section2, .section4 {
+  background-color: #f6f6f6;
+}
+
+.section1 .box1-section img, .section2 .box1-section img, .section3 .box1-section img {
+  width: 100%;
+}
+
 .box2-section {
   width: 40%;
+  padding: 30px;
 }
 
 .section2 .box1-section {
   order: 1;
 }
 
-.section4 .container.layout div {
-  flex-grow: 1;
+.box2-section h2 {
+ margin-right: 80px;
+ margin-bottom: 30px;
+ font-size: 30px;
 }
+
+.box2-section p {
+  line-height: 25px;
+  margin-right: 20px;
+}
+
+.section4 .layout {
+  text-align: center;
+}
+
+.section4 h2 {
+  font-size: 40px;
+  margin: 30px 60px;
+}
+
+.section4 p {
+ margin: 0px 70px;
+ line-height: 30px;
+}
+
+.section4 img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.section4 h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.section4 a {
+  display: inline-block;
+  background-color: #7289da;
+  color: white;
+  margin-bottom: 125px;
+  padding: 15px;
+}
+
 /*
 FOOTER 
 */
