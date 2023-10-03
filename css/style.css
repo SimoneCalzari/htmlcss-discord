@@ -325,7 +325,7 @@ footer {
 }
 
 .footer1 {
-  padding: 10px 0 20px;
+  padding-top: 10px;
 }
 
 .box1-footer1 {
@@ -383,15 +383,19 @@ footer {
 .footer1 .container.layout {
   border-bottom: 2px solid  #7289da;
 }
+
 .footer2 {
-  padding-top: 15px;
+  padding: 15px;
 }
 
 .footer2 .container.layout {
-  padding: 10px 0;
   justify-content: space-between;
+  align-items: center;
 }
 
-.footer2 .container.layout div {
-  padding: 5px;
+.footer2 a {
+  background-color: #7289da;
+  color: white;
+  padding: 10px;
 }
+
