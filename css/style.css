@@ -1,6 +1,6 @@
 /*
 RESET 
- */
+*/
 
 * {
   margin: 0;
@@ -8,9 +8,9 @@ RESET
   box-sizing: border-box;
 }
 
- /*
+/*
 DEBUG
- */
+*/
 
 .debug .header1 {
   background-color: #add8e6;
@@ -112,9 +112,17 @@ DEBUG
   background-color: #ffb6c1;
 }
 
- /*
+/*
+GENERALE 
+*/
+
+body {
+  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*
 COMMON 
- */
+*/
 
 .container {
   display: flex;
@@ -125,9 +133,9 @@ COMMON
   margin: 0 auto;
 }
 
- /*
+/*
 HEADER 
- */
+*/
 
 .header1 {
   padding: 10px 0;
@@ -161,9 +169,9 @@ HEADER
   width: 700px;
 }
 
- /*
+/*
 MAIN 
- */
+*/
 
 section {
   padding: 30px 0;
@@ -184,9 +192,9 @@ section {
 .section4 .container.layout div {
   flex-grow: 1;
 }
- /*
+/*
 FOOTER 
- */
+*/
 
 .footer1 {
   padding: 10px 0 20px;
