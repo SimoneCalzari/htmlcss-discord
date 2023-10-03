@@ -318,12 +318,39 @@ section {
 FOOTER 
 */
 
+footer {
+  background-color: #23272a;
+  padding-top: 75px;
+  color: white;
+}
+
 .footer1 {
   padding: 10px 0 20px;
 }
 
 .box1-footer1 {
   width: calc(100% / 3);
+  margin-right: 20px;
+}
+
+.box1-footer1 h3 {
+  color: #7289da;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.italia img {
+  width: 6%;
+  margin-right: 10px;
+}
+
+.italia {
+  margin-bottom: 25px;
+}
+
+.social i {
+  margin-right: 20px;
+  font-size: 20px;
 }
 
 .box2-footer1 {
@@ -335,6 +362,27 @@ FOOTER
   width: 25%;
 }
 
+.box2-footer1 h3 {
+  color: #7289da;
+  margin: 0 20px ;
+}
+
+.box2-footer1 ul {
+  list-style-type: none;
+}
+
+.box2-footer1 li {
+  margin: 30px 20px;
+}
+
+.box2-footer1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer1 .container.layout {
+  border-bottom: 2px solid  #7289da;
+}
 .footer2 {
   padding-top: 15px;
 }
