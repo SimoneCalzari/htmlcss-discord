@@ -117,7 +117,7 @@ GENERALE
 */
 
 body {
-  font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /*
@@ -208,7 +208,6 @@ header {
 
 .box-header2 {
   text-align: center;
-
 }
 
 .box-header2 h1 { 
@@ -281,6 +280,35 @@ section {
   line-height: 25px;
   margin-right: 20px;
 }
+
+/* BONUS ONDA INIZIO*/
+
+.onda-su {
+  position: relative;
+  top: -30px;
+  background-color: white;
+}
+
+.onda-su img {
+  width: 100%;
+  opacity: 0.03;
+  display: block;
+}
+
+.onda-giù img {
+  width: 100%;
+  opacity: 0.03;
+  display: block;
+}
+
+.onda-giù {
+  position: relative;
+  transform: rotateX(180deg);
+  bottom: -30px; 
+  background-color: white;
+}
+
+/* BONUS ONDA FINE */
 
 .section4 .layout {
   text-align: center;
@@ -396,6 +424,5 @@ footer {
 .footer2 a {
   background-color: #7289da;
   color: white;
-  padding: 10px;
 }
 
